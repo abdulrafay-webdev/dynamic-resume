@@ -96,7 +96,7 @@ export const A4 = () => {
   };
 
   return (
-    <div>
+    <div className="flex flex-col-reverse">
       {/* input form  */}
 
       <div className="min-h-[80vh] p-10 flex items-center justify-center bg-gray-100">
@@ -613,8 +613,6 @@ export const A4 = () => {
                 </div>
               </div>
             )}
-            {formData.name}
-            {formData.nationality}
           </form>
         </div>
         <div></div>
